@@ -4,6 +4,8 @@ body{
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 
 }
 .footer{
@@ -23,7 +25,7 @@ body{
     align-items: center;
     color:white;
     margin: 0;
-    padding: 0 10px;
+    padding: 0 80px;
     
 }
 ul{
@@ -33,7 +35,7 @@ ul{
     align-items: center;
     margin: 10px;
     padding: 0;
-    gap: 8px;
+    gap: 15px;
 }
 a{
     text-decoration: none;
@@ -53,19 +55,22 @@ a{
 .welcome{
     width: 400px;
 }
-p{
+.welcome p{
     padding-bottom:10px;
 }
 .maintext{
     font-size: 40px;
     font-weight: bold ;
     color:#F9FAF8;
+    margin-top: 0px;
 }
 .intro button{
     font-size: 15px;
     background-color: rgb(177, 184, 231);
     border:none;
-    border-radius: 8px;
+    border-radius: 3px;
+    padding: 5px 30px;
+    font-size: 20px;
 }
 .intro button:hover{
     background-color:rgb(122, 127, 161) ;
@@ -76,21 +81,23 @@ p{
     align-items: center;
     flex-direction: column;
     background-color: white;
-    margin: 10px;
+    margin: 50px;
     padding: 20px;
 
 }
-.title{
+.container .title{
     font-size: 38px;
     font-weight: bolder;
     color:#1F2937;
-    padding:15px;
+    padding:25px 25px 50px 25px;
+    
 }
 .layout{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
+    padding: 30px;
 }
 .content{
     display: flex;
@@ -140,16 +147,18 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap:40px;
-    margin:70px;
-    padding:40px;
+    
+    margin:70px 200px;
+    padding:40px 20px;
+    border-radius: 15px;
 }
 .signup button{
     background-color: #3882f6;
     color: white;
-    border-color: white;
-    border-radius: 3px;
-    border: 1px solid;
+    border-radius: 5px;
+    border: 1px solid rgb(241, 212, 158);
+    padding: 5px 20px;
+    font-size: 20px;
 
 }
 .signup button:hover{
@@ -158,9 +167,17 @@ p{
 .signuptext{
     display: flex;
     flex-direction: column;
+    width: 500px;
+    padding: 0px;
 }
 .signuptitle{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
     margin: 0px;
     padding: 0px;
+}
+.signupcontent{
+    font-size: 18px;
+    padding: 0px;
+    color: rgb(241, 212, 158);
 }
