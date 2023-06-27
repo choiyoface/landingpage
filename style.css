@@ -67,6 +67,9 @@ p{
     border:none;
     border-radius: 8px;
 }
+.intro button:hover{
+    background-color:rgb(122, 127, 161) ;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -87,16 +90,25 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 30px;
 }
 .content{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-image{
-    border-color: #3882f6;
+.content img{
+    border:1px solid;
+    border-color: #4267a3;
+    border-radius: 8px;
 
 }
+.content img:hover{
+    border-color: #E5E7EB;
+
+}
+
+
 .quote{
     background-color: #E5E7EB;
     display:flex;
@@ -137,7 +149,11 @@ image{
     color: white;
     border-color: white;
     border-radius: 3px;
+    border: 1px solid;
 
+}
+.signup button:hover{
+    background-color: #265bb0;
 }
 .signuptext{
     display: flex;
